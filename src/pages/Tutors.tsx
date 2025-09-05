@@ -15,6 +15,7 @@ import {
 import { Filter, X } from "lucide-react";
 
 const Tutors = () => {
+  console.log('Tutors data:', tutors); // Debug log
   const [showFilters, setShowFilters] = useState(false);
   const [priceRange, setPriceRange] = useState([0, 100]);
   const [selectedSubject, setSelectedSubject] = useState("");
@@ -244,9 +245,10 @@ const Tutors = () => {
 
             {/* Tutors Grid */}
             <div className="space-y-4">
-              {filteredTutors.map((tutor) => (
-                <TutorCard key={tutor.id} tutor={tutor} />
-              ))}
+              {filteredTutors.map((tutor) => {
+                console.log('Rendering tutor:', tutor.id, tutor.name);
+                return <TutorCard key={tutor.id} tutor={tutor} />;
+              })}
             </div>
 
             {filteredTutors.length === 0 && (

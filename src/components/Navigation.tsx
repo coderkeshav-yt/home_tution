@@ -42,8 +42,8 @@ const Navigation = () => {
             className="flex items-center gap-2 text-xl font-bold text-foreground hover:text-primary transition-colors"
           >
             <GraduationCap className="h-8 w-8 text-primary" />
-            <span className="hidden sm:inline">Home Tuition Agency</span>
-            <span className="sm:hidden">HTA</span>
+            <span className="hidden sm:inline">Home Tuition Bureau</span>
+            <span className="sm:hidden">HTB</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -65,13 +65,17 @@ const Navigation = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="hidden md:flex items-center gap-3">
-            <Button variant="outline" size="sm">
-              Sign In
-            </Button>
-            <Button variant="cta" size="sm">
-              Get Started
-            </Button>
+          <div className="hidden md:flex items-center gap-4">
+            <Link to="/login">
+              <Button variant="outline" size="default" className="px-6 hover:bg-primary/10 transition-colors">
+                Login
+              </Button>
+            </Link>
+            <Link to="/get-started">
+              <Button variant="cta" size="default" className="px-6 bg-gradient-to-r from-primary to-primary/90 hover:from-primary/90 hover:to-primary transition-all shadow-lg hover:shadow-primary/30">
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Toggle */}
@@ -109,12 +113,16 @@ const Navigation = () => {
                 </Link>
               ))}
               <div className="flex gap-3 mt-3 pt-3 border-t border-border">
-                <Button variant="outline" size="sm" className="flex-1">
-                  Sign In
-                </Button>
-                <Button variant="cta" size="sm" className="flex-1">
-                  Get Started
-                </Button>
+                <Link to="/login" className="w-full">
+                  <Button variant="outline" size="default" className="w-full hover:bg-primary/10 transition-colors">
+                    Login
+                  </Button>
+                </Link>
+                <Link to="/get-started" className="w-full">
+                  <Button variant="cta" size="default" className="w-full bg-gradient-to-r from-primary to-primary/90 hover:from-primary/90 hover:to-primary transition-all shadow-lg hover:shadow-primary/30">
+                    Get Started
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>

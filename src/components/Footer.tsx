@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <GraduationCap className="h-8 w-8" />
-              <span className="text-xl font-bold">Home Tuition Agency</span>
+              <span className="text-xl font-bold">Home Tuition Bureau</span>
             </div>
             <p className="text-primary-foreground/80 mb-4">
               Connecting students with qualified tutors for personalized home-based learning across India since 2020.
@@ -127,7 +127,7 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-primary-foreground/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/60 text-sm">
-              © 2024 Home Tuition Agency. All rights reserved.
+              &copy; {new Date().getFullYear()} Home Tuition Bureau. All rights reserved.
             </p>
             <div className="flex gap-4 text-sm">
               <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
