@@ -1,73 +1,36 @@
-# Welcome to your Lovable project
+# 🎓 Home Tuition Bureau  
 
-## Project info
+An online platform that connects **students and parents** with **qualified, verified tutors** across India. Provides personalized home tuition for all subjects, boards, and competitive exams with flexible scheduling.  
 
-**URL**: https://lovable.dev/projects/e1b9fc08-f1a1-4a33-b199-9348bd5791d4
+### ✨ Features  
+- 🔍 Find verified tutors based on subject, location, and expertise  
+- 📚 Covers 50+ subjects including JEE, NEET, UPSC, and school courses  
+- 🧑‍🏫 Detailed tutor profiles with ratings, experience, and hourly rates  
+- 📢 Notifications for batches, exam results, and announcements  
+- 💻 Hassle-free login and tutor-student messaging system  
+- ⭐ Trusted by 15,000+ students with 1200+ professional tutors  
 
-## How can I edit this code?
+### 🌐 Live Demo  
+👉 [Home Tuition Bureau](https://home-tution-nine.vercel.app/)  
 
-There are several ways of editing your application.
+### 🚀 How It Works  
+1. **Search & Match** – Select subjects and find the right tutor.  
+2. **Book Sessions** – Schedule flexible classes that suit your timetable.  
+3. **Start Learning** – Connect directly with tutors and begin your journey.  
 
-**Use Lovable**
+### 🛠️ Tech Stack  
+- Frontend: Next.js / React  
+- Backend: Node.js / Express  
+- Database: MongoDB  
+- Hosting: Vercel  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e1b9fc08-f1a1-4a33-b199-9348bd5791d4) and start prompting.
+### 👨‍🏫 Popular Subjects  
+- Mathematics | Physics | Chemistry | Biology | English | Hindi  
+- JEE/NEET Preparation | UPSC | Computer Science | Commerce  
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### ❤️ Author  
+Made with dedication by the **Keshav Singh**  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e1b9fc08-f1a1-4a33-b199-9348bd5791d4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+***
